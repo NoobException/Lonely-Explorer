@@ -4,7 +4,7 @@ using UnityEditor;
 
 public class TeleportTile : Tile {
 
-    new public Sprite sprite;
+    public new Sprite sprite;
     public int switchIndex;
 
     [MenuItem("Assets/Create/Teleport Tile")]
