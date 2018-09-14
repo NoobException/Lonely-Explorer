@@ -121,7 +121,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4152526}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Interactive
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -210,6 +210,10 @@ Prefab:
       propertyPath: m_Name
       value: Grass (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1949607573105698, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
   m_IsPrefabAsset: 0
@@ -226,7 +230,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 17284714}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SecondTeleportPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -323,7 +327,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 73408949}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SecondTeleportTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -486,11 +490,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 95885205}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -22.37, y: 5.71, z: 0}
+  m_LocalPosition: {x: -0.66, y: 0.41, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1954810789}
   - {fileID: 2104859762}
+  - {fileID: 1954810789}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -675,6 +679,10 @@ Prefab:
     - target: {fileID: 1949607573105698, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
       propertyPath: m_Name
       value: Grass (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949607573105698, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
@@ -1012,6 +1020,10 @@ Prefab:
       propertyPath: m_Name
       value: Grass (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1949607573105698, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
   m_IsPrefabAsset: 0
@@ -1039,7 +1051,7 @@ GameObject:
   m_Component:
   - component: {fileID: 381038260}
   - component: {fileID: 381038261}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EnvironmentManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1299,7 +1311,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 403419130}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FirstTeleportPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1327,7 +1339,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 418605812}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FirstTeleportTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1355,7 +1367,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 431055576}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ThirdTeleportTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1566,7 +1578,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -23.35, y: 2.2, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1580,7 +1592,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 536546418}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FirstDoorOpen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1795,7 +1807,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 617061109}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SecondTeleportTarget2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1887,7 +1899,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 635266272}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkpoint2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2126,7 +2138,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 682490678}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Switch4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2276,6 +2288,10 @@ Prefab:
     - target: {fileID: 4947512794673190, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
       propertyPath: m_LocalScale.y
       value: 0.2117388
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949607573105698, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
@@ -2533,6 +2549,10 @@ Prefab:
     - target: {fileID: 1949607573105698, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
       propertyPath: m_Name
       value: Grass (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949607573105698, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
@@ -2798,6 +2818,10 @@ Prefab:
       propertyPath: m_Name
       value: Grass (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1949607573105698, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
   m_IsPrefabAsset: 0
@@ -2809,7 +2833,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 811686365}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Switch2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3038,7 +3062,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 836052422}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Environment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4394,7 +4418,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_SpriteSortPoint: 0
 --- !u!4 &1023339694
 Transform:
@@ -4655,7 +4679,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1085818194}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4779,6 +4803,10 @@ Prefab:
     - target: {fileID: 1949607573105698, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
       propertyPath: m_Name
       value: Grass (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949607573105698, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
@@ -4905,6 +4933,10 @@ Prefab:
       propertyPath: m_Name
       value: Grass (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1949607573105698, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
   m_IsPrefabAsset: 0
@@ -4995,7 +5027,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1151314908}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SwitchTeleport4Target
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5117,7 +5149,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1288647538}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5443,7 +5475,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1340256843}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SwitchTeleport4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5476,7 +5508,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1362597670}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Switch3Teleport
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5751,7 +5783,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1422837521}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ThirdTeleportPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10429,7 +10461,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1545373030}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkpoint1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10920,7 +10952,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1682207920}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SwitchGround3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10953,7 +10985,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1691219833}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Switch3TeleportTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11035,6 +11067,10 @@ Prefab:
     - target: {fileID: 1949607573105698, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
       propertyPath: m_Name
       value: Grass (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949607573105698, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
@@ -11183,7 +11219,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1764703628}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkpoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11412,7 +11448,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1820855563}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkpoint3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11785,6 +11821,10 @@ Prefab:
       propertyPath: m_Name
       value: Grass (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1949607573105698, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
   m_IsPrefabAsset: 0
@@ -11926,6 +11966,10 @@ Prefab:
       propertyPath: m_Name
       value: Grass (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1949607573105698, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
   m_IsPrefabAsset: 0
@@ -12051,6 +12095,10 @@ Prefab:
       propertyPath: m_Name
       value: Grass (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1949607573105698, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0007fe3b7a00f754382af955ffd803f5, type: 2}
   m_IsPrefabAsset: 0
@@ -12065,7 +12113,7 @@ GameObject:
   - component: {fileID: 1954810788}
   - component: {fileID: 1954810787}
   m_Layer: 0
-  m_Name: Light
+  m_Name: LightTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12119,9 +12167,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: 5e4f4bfbef672d64dbd7c9ff6b4a83c9, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: e3323ac87352f934997d5537f6b15fc0, type: 3}
+  m_Color: {r: 0.14901961, g: 0.14509805, b: 0.14509805, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -12137,12 +12185,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1954810786}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 95885208}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1983166638
 Prefab:
@@ -12364,7 +12412,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2002241836}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Switch1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12628,7 +12676,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 95885208}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2104859763
 SpriteRenderer:
@@ -12664,9 +12712,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 452393b4e569a5a4a9938d695a05e241, type: 3}
-  m_Color: {r: 0.14901961, g: 0.14509805, b: 0.14509805, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

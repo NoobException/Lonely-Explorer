@@ -3,10 +3,13 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour {
 
+    public string collectibleTag = "Coin";
+    public GameObject collectEffect;
 
     public float speed;
     public float jumpSpeed;
     public float maxDepth;
+
 
     public Transform spawnPos;
     public Rigidbody2D rb;
@@ -183,6 +186,10 @@ public class PlayerController : MonoBehaviour {
         if (!gameIsRunning)
             return;
            
+        if(collision.CompareTag(collectibleTag))
+        {
+            Collect(collision.gameObject);
+        }
         if(collision.CompareTag("Exit"))
         {
             //Stop the game
@@ -199,5 +206,14 @@ public class PlayerController : MonoBehaviour {
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(groundCheck.position, checkRadius);
+    }
+
+    void Collect(GameObject collectible)
+    {
+        Debug.Log("Collected!");
+        
+        GameObject effect = (GameObject)Instantiate(collectEffect, collectible.transform.position, Quaternion.identity);
+        Destroy(collectible);
+        Destroy(effect, 2f);
     }
 }

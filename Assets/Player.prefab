@@ -106,7 +106,7 @@ GameObject:
   - component: {fileID: 61602550496630134}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -286,7 +286,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.010794163, y: -1.4936693}
+  m_Offset: {x: 0.010794163, y: -1.5337957}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -297,7 +297,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0122442, y: 0.8740258}
+  m_Size: {x: 1.0122442, y: 0.9542787}
   m_EdgeRadius: 0
 --- !u!95 &95650013918578156
 Animator:
@@ -358,7 +358,8 @@ MonoBehaviour:
   checkRadius: 0.05
   groundCheck: {fileID: 4672767261576610}
   canvas: {fileID: 0}
-  gameIsRunning: 0
+  walkAudio: {fileID: 0}
+  jumpAudio: {fileID: 0}
 --- !u!212 &212097437672698560
 SpriteRenderer:
   m_ObjectHideFlags: 1
