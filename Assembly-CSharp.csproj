@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Checkpoint.cs" />
     <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\Scripts\Environment.cs" />
     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
@@ -71,6 +72,7 @@
     <Compile Include="Assets\Scripts\Teleport.cs" />
     <Compile Include="Assets\Scripts\TutorialController.cs" />
     <Compile Include="Assets\Switch.cs" />
+    <Compile Include="Assets\TutorialCompleteButtons.cs" />
     <None Include="Assets\Fonts\Roboto\LICENSE.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Boys/Desktop/Programy/Unity/Experiment1/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

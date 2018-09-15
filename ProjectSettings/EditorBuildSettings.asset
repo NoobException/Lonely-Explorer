@@ -12,9 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/MainScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/FinalScreen.unity
-    guid: 5d5df7a6a5ec7f5438ab9c036e76850d
-  - enabled: 1
     path: Assets/Scenes/MainScene2.unity
     guid: 1e9557436f0592e4eb841332851ce522
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 71931ae8410a91a4cb2d55b4ecf85c3d
+  - enabled: 1
+    path: Assets/Scenes/TutorialCompleted.unity
+    guid: e7b8422b4edd3f34aa9e8eb7667a5e36
+  - enabled: 1
+    path: Assets/Scenes/FinalScreen.unity
+    guid: 5d5df7a6a5ec7f5438ab9c036e76850d
   m_configObjects: {}

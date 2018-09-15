@@ -13,6 +13,8 @@ public class SceneChanger : MonoBehaviour {
         if(instance != null)
         {
             Debug.Log("More than one Scene Changer!");
+            Destroy(gameObject);
+            Destroy(this);
         }
         instance = this;
         DontDestroyOnLoad(gameObject);
@@ -30,6 +32,7 @@ public class SceneChanger : MonoBehaviour {
     }
     public void FadeIn()
     {
+        animator.ResetTrigger("FadeOut");
         animator.SetTrigger("FadeIn");
     }
     

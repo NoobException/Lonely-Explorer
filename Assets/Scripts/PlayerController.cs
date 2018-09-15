@@ -25,10 +25,11 @@ public class PlayerController : MonoBehaviour {
     private bool isGrounded = false;
     private float movement;
     private bool flipped = false;
-    private Transform checkpoint;
+    public Transform checkpoint;
 
     public static bool gameIsRunning;
     
+    public int collected = 0; //How many puzzles player collected
 
 	void Start () {
         Debug.Log("Start");
@@ -144,11 +145,11 @@ public class PlayerController : MonoBehaviour {
         transform.Rotate(new Vector3(0,180,0));
     }
 
-    void Restart()
+    public  void Restart()
     {
         //If died, fade out and respawn
         SceneChanger.instance.FadeOut();
-        Invoke("Respawn", 1f);
+        Invoke("Respawn",1f);
     }
 
     void Respawn()
@@ -211,7 +212,7 @@ public class PlayerController : MonoBehaviour {
     void Collect(GameObject collectible)
     {
         Debug.Log("Collected!");
-        
+        collected += 1;
         GameObject effect = (GameObject)Instantiate(collectEffect, collectible.transform.position, Quaternion.identity);
         Destroy(collectible);
         Destroy(effect, 2f);

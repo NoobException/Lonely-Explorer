@@ -10,6 +10,8 @@ public class Music : MonoBehaviour {
         if(instance != null)
         {
             Debug.Log("More than one Music Manager!");
+            Destroy(gameObject);
+            Destroy(this);
             return;
         }
         instance = this;

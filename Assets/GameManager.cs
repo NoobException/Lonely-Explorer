@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour {
         if(instance != null)
         {
             Debug.Log("More than one Game Manager!");
+            Destroy(gameObject);
+            Destroy(this);
             return;
         }
         instance = this;
